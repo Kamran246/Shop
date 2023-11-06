@@ -35,6 +35,76 @@ body {
 .notification > div > span:last-child:hover {
   opacity: 0.7;
 }
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.sh {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.nav > a {
+  color: #000;
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.down > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -4px 0px;
+}
+.down {
+  display: flex;
+  flex-direction: row;
+}
+.nav {
+  display: flex;
+  margin: 24px 24px;
+}
+.nav {
+  display: flex;
+  gap: 24px;
+}
+.bag {
+  display: flex;
+  gap: 14px;
+}
+input {
+  background-color: #f0f0f0;
+  width: 582px;
+  height: 48px;
+  border-radius: 40px;
+}
+.clothes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f2f0f1;
+}
+.clothes > span {
+  display: flex;
+}
+.find {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.browse {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
 
 @media screen and (max-width: 420px) {
   .notification > div > span:first-child {
