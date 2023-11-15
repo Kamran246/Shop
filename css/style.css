@@ -86,12 +86,26 @@ body {
   display: flex;
   gap: 14px;
 }
-input {
+.sr {
+  background-color: #f0f0f0;
+  width: 90%;
+  padding: 15px 5px;
+}
+.search > span {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0 11px;
+}
+.search {
   background-color: #f0f0f0;
   width: 582px;
   height: 48px;
   border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
 }
+
 .clothes {
   height: 663px;
   width: 100%;
