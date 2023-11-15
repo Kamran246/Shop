@@ -36,9 +36,9 @@ body {
   opacity: 0.7;
 }
 .nav {
-  width: 90%;
+  width: 91%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
@@ -59,7 +59,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -4px 0px;
 }
 .down {
   display: flex;
@@ -84,27 +83,42 @@ input {
   border-radius: 40px;
 }
 .clothes {
+  height: 663px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #f2f0f1;
+  background: url("/img/Group\ 16.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 .clothes > span {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .find {
+  width: 577px;
   color: #000;
   font-family: "Montserrat", sans-serif;
   font-size: 64px;
   font-weight: 700;
 }
-.browse {
+.Browse {
   color: rgba(0, 0, 0, 0.6);
   font-family: "lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  width: 545px;
+}
+.frame {
+  color: #000;
+  font-family: "Lato";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 420px) {
