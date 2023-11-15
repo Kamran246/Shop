@@ -71,6 +71,9 @@ body {
   text-decoration: none;
   margin-right: 25px;
 }
+.down > a > span {
+  margin-top: 5px;
+}
 .nav {
   display: flex;
   margin: 24px auto;
