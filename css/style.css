@@ -207,6 +207,87 @@ body {
   font-weight: 700;
   margin-top: 35px;
 }
+.tshirt {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+.net {
+  width: 85%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 25px;
+  row-gap: 10px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.ts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tname {
+  color: #000;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.star > span {
+  width: 35px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+}
+.star {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.star > span {
+  color: #ffc633;
+}
+.dollar {
+  width: 190px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.dollar > span {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.dollar > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 26px;
+  border-radius: 60px;
+  text-decoration: none;
+  color: #ff3333;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Lato";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
 @media screen and (max-width: 420px) {
   .notification > div > span:first-child {
     text-align: left;
