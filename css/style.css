@@ -227,7 +227,7 @@ body {
 .ts {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 .tname {
   color: #000;
@@ -282,11 +282,139 @@ body {
   border-radius: 60px;
   text-decoration: none;
   color: #ff3333;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(194, 123, 123, 0.1);
   font-family: "Lato";
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
+}
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view {
+  width: 210px;
+  height: 52px;
+  border-radius: 62px;
+  border: #f0f0f0 solid 2px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  margin: 25px 0;
+}
+.bord {
+  width: 85%;
+  display: flex;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  margin: 20px 20px;
+}
+
+.ar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Monserrat";
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 35px;
+}
+.dress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  width: 85%;
+  background: #f0f0f0;
+  border-radius: 40px;
+}
+.casual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.casual > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 15px;
+}
+.one {
+  background: url(/img/q1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  width: 407px;
+  height: 289px;
+  border-radius: 20px;
+  color: #000;
+  font-family: "lato";
+  font-size: 36px;
+  font-weight: 700;
+}
+.two {
+  background: url(/img/q2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  width: 684px;
+  height: 289px;
+  border-radius: 20px;
+  color: #000;
+  font-family: "lato";
+  font-size: 36px;
+  font-weight: 700;
+}
+.thre {
+  background: url(/img/q3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  width: 684px;
+  height: 289px;
+  border-radius: 20px;
+  color: #000;
+  font-family: "lato";
+  font-size: 36px;
+  font-weight: 700;
+}
+.four {
+  background: url(/img/q4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  width: 407px;
+  height: 289px;
+  border-radius: 20px;
+  color: #000;
+  font-family: "lato";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Monserrat";
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 35px;
 }
 @media screen and (max-width: 420px) {
   .notification > div > span:first-child {
